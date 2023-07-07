@@ -1,0 +1,187 @@
+body{
+   margin: 0 auto;
+   background-color: rgb(245, 245, 245);
+   font-family: 'Poppins', sans-serif; 
+}
+
+#head{
+   background-color: white;
+   border-bottom: 1px solid rgb(29, 29, 29);
+   box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.20); 
+}
+
+#encabezado1 {
+    text-align: center;
+    background-color: white;
+   }
+
+   a[href*="index"],
+   a[href*="articulos"],
+   a[href*="contactanos"]{
+      text-decoration: none;
+      color: black;
+      margin: 10px 120px;
+      font-size: 25px;
+   }
+
+   .menu1 {
+      text-align: center;
+      position: relative;
+      padding: auto;
+      margin-bottom: 20px ;
+      margin-top: 17px; 
+   }
+
+   .menu1 a:hover {
+      background: #FFD0E8;
+      padding: 10px 20px;
+      margin-left: 100px;
+      margin-right: 100px;
+   }
+
+   .menu1 a:active {
+      background: #FFA0D1;
+      padding: 10px 20px;
+      color: white;
+    
+   }
+
+/*slider*/
+   #seccion{
+      height: 700px;
+      position: relative;
+   }
+
+   ul, li{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+   }
+
+   ul.slider{
+      width: 100%;
+      height: 600px;
+   }
+
+   ul.slider li{
+      height: 100%;
+      position: absolute;
+      opacity: 0;
+      transition: opacity .5s;
+   }
+
+   img[src*="PAQUETE_DE_BOLSILLO"],
+   img[src*="promocion"],
+   img[src*="LIBRETAS"]{     
+      object-fit: cover;
+      width: 1410px;
+      height: 80%;
+   }
+
+   ul.slider li:first-child{
+      opacity: 1;
+   }
+
+   ul.slider li:target{
+      opacity: 1;
+   }
+
+   .point{
+      text-align: center;
+      position: relative;
+   }
+
+
+    a[href*="slider3"],
+    a[href*="slider2"],
+   a[href*="slider1"]{
+      
+      position: relative;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      background: lightgray;
+   }
+
+/*Añadir al carrito*/
+   .starlista1 button{
+      background: none;
+      background-color: #18161d;
+      color: white;
+      border: none;
+      padding: 12px 35px;
+      cursor: pointer;
+   }
+
+
+/* cuadricula */ 
+
+   .starlista1 {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-gap: 30px;
+     margin: 0 50px 0 50px;
+   }
+
+/*imagenes*/
+.star-lista1 [img]{
+   object-fit: cover;
+}
+
+.prodc img {
+   width: 245px;
+   height: 245px;
+   object-fit: cover;
+}
+
+.image {
+   position: relative;
+   margin: 30px 30px;
+}
+
+/*lista */
+   .lista-number1{
+     background: #fefcff;
+   }
+
+   .lista-number {
+     background: #fcfffd;
+     position: relative;
+     
+   }
+
+   .lista-number1:hover,
+   .lista-number:hover{
+      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.20); 
+       transform: scale(0.95);
+   }
+
+/*productos*/  
+.info-1 {
+   width: 240px;
+   min-height: 270px;
+   margin: -290px 0 0 auto;
+   margin-left: 370px;
+} 
+
+.prodc1 {
+   margin-bottom: 10px; 
+}
+
+/*producto 1 */
+   #name {
+      color: rgb(53, 0, 20);
+   }
+
+   #note {
+      font-size: 17px;
+      color:rgb(29, 29, 29)
+   }
+
+   #precio {
+      font-size: 20px;
+      color: rgb(128, 0, 75);
+   }

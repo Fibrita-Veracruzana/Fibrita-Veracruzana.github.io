@@ -1,0 +1,116 @@
+body{
+   margin: 0px;
+   background-color: rgb(245, 245, 245);
+   font-family: 'Poppins', sans-serif; 
+}
+
+#heads{
+   background-color: white;
+   border-bottom: 1px solid rgb(29, 29, 29);
+   box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.20); 
+}
+
+   #encabezado {
+    text-align: center;
+    background-color: white;
+   }
+
+   a[href*="index"],
+   a[href*="articulos"],
+   a[href*="contactanos"]{
+      text-decoration: none;
+      color: black;
+      margin: 10px 120px;
+      font-size: 25px;
+   }
+
+   .menu {
+      text-align: center;
+      position: relative;
+      padding: auto;
+      margin-bottom: 20px ;
+      margin-top: 17px; 
+   }
+
+   .munu a.active,
+   .menu a:hover {
+      background: #FFD0E8;
+      padding: 10px 20px;
+      margin-left: 100px;
+      margin-right: 100px;
+   }
+
+   .menu a:active {
+      background: #FFA0D1;
+      padding: 10px 20px;
+      color: white;
+    
+   }
+
+   #welcome {
+      text-align: center;
+      margin-top: 70px;
+     }
+
+   /*slider*/
+   #welcome {
+      height: 700px;
+      position: relative;
+   }
+   
+   ul, li{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+   }
+
+   ul.slider-welcome{
+      width: 100%;
+      height: 600px;
+   }
+
+   ul.slider-welcome li{
+      height: 100%;
+      position: absolute;
+      opacity: 0;
+      transition: opacity .5s;
+   }
+
+  img[src*="bienvenida"],
+  img[src*="PAQUETE ESPECIAL FIBRITA-VERACRUZANA"],
+  img[src*="EN LIBRETAS RECICLADAS"] {     
+      object-fit: cover;
+      width: 1410px;
+      height: 80%;
+   }
+
+   ul.slider-welcome li:first-child{
+      opacity: 1;
+   }
+
+   ul.slider-welcome li:target{
+      opacity: 1;
+   }
+
+   .main{
+      text-align: center;
+        position: relative;
+   }
+
+    a[href*="welc3"],
+    a[href*="welc2"],
+   a[href*="welc1"]{
+      display: inline-block;
+      position: relative;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      background: lightgray;
+   }
+   
+   
+
+  

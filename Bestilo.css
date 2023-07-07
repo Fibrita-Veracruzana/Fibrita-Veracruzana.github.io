@@ -1,0 +1,65 @@
+body{
+   margin: 0 auto;
+   font-family: 'Poppins', sans-serif; 
+}
+
+
+#head{
+   background-color: white;
+   border-bottom: 1px solid rgb(29, 29, 29);
+   box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.20); 
+}
+
+#encabezado{
+    text-align: center;
+    background-color: white;
+   }
+
+   a[href*="index"],
+   a[href*="articulos"],
+   a[href*="contactanos"]{
+      text-decoration: none;
+      color: black;
+      margin: 10px 120px;
+      font-size: 25px;
+   }
+
+   .menu {
+      text-align: center;
+      position: relative;
+      padding: auto;
+      margin-bottom: 20px ;
+      margin-top: 17px; 
+   }
+
+   .menu a:hover {
+      background: #FFD0E8;
+      padding: 10px 20px;
+      margin-left: 100px;
+      margin-right: 100px;
+   }
+
+   .menu a:active {
+      background: #FFA0D1;
+      padding: 10px 20px;
+      color: white;
+    
+   }
+
+   /*icons*/
+   .icons{
+      text-align: center;
+      margin: 55px 0;
+   }
+
+   img[src*="wasaa"],
+   img[src*="facebok"],
+   img[src*="instagram"],
+   img[src*="tiwterr"]{
+      margin: 0 35px;
+      width: 75px;
+      height: 75px;
+      object-fit: cover;
+   }
+
+ 
